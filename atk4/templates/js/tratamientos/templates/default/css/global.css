@@ -1,0 +1,105 @@
+#atk-layout {
+	max-width: 1024px;
+	min-width: 240px;
+	margin: 0 auto;
+	position: relative;
+}
+
+form, h1, h2, h3, h4, h5, h6, p {
+	padding: 0 15px 0 15px;
+}
+
+form {
+	background: white;
+	border-radius: 6px;
+	border: 1px solid gray;
+	margin: 10px;
+}
+
+.hr {
+	border-top: none;
+    border-bottom: 1px solid #E5E5E5;
+    clear: both;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.atk-form .atk-buttons {
+    margin-top: 0;
+    padding-top: 5px;
+}
+
+.atk-form fieldset .atk-form-row {
+    margin-top: 9px;
+}
+
+.atk-form fieldset .atk-form-row > .atk-form-field {
+    margin-left: 0;
+}
+
+.atk-form .atk-buttons, .atk-form .legend {
+    padding-left: 0;
+}
+
+.atk-form fieldset .atk-form-row > label {
+    width:auto;
+}
+
+.ui-hide-label label, .ui-hidden-accessible {
+    clip:auto;
+    left: 0px;
+    position: relative !important;
+}
+
+label.ui-input-text {
+    font-size: 14px;
+}
+
+.error {
+	color: red;
+	text-align: center;
+	font-size: 15px;
+}
+
+#tratamientos_project_index_form input.ui-input-text {
+	width: 70px !important; 
+}
+
+#tratamientos_project_index_form label {
+	width: 190px !important; 
+}
+
+#tratamientos_project_index_form .atk-form-row {
+	width: 290px;
+	float: left;
+	clear: left;
+	position: relative;
+}
+
+.comentario {
+	float: left;
+	margin-top: 19px;
+	width: 180px;
+	position: relative;
+}
+
+.ui-listview {
+    margin: 10px 6px 10px 6px;
+}
+
+#tratamientos_project_index_form .ui-btn {
+    clear: both;
+    padding: 5px;
+}
+
+.ultimo {
+	margin-bottom: 15px;
+}
+
+@media screen and (max-width: 480px) {
+	
+	.comentario {
+		margin-top: 0px;
+	}
+
+}
